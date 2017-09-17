@@ -168,11 +168,6 @@ function ($rootScope, $scope, $state, $location, Flash,appSettings) {
         }
     };
 
-    //navigate to search page
-    vm.search = function () {
-        $state.go('app.search');
-    };
-
     console.log('getting in to the app controller');
 
 }]);
