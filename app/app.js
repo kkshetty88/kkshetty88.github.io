@@ -28,9 +28,9 @@ app.config(['$stateProvider', '$locationProvider', '$urlRouterProvider', functio
            }
        });
 
-    $urlRouterProvider.otherwise('login');
+    //$urlRouterProvider.otherwise('login');
 
-    //$urlRouterProvider.otherwise('app/dashboard');
+    $urlRouterProvider.otherwise('app/dashboard');
     //$urlRouterProvider.otherwise('/app/dashboard');
 }]);
 
