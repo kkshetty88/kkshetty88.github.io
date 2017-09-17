@@ -47,28 +47,6 @@ dashboard.config(["$stateProvider", function ($stateProvider) {
         }
     });
 
-    //Achievements page state
-    $stateProvider.state('app.achievements', {
-        url: '/achievements',
-        templateUrl: 'app/modules/dashboard/views/achievements.html',
-        controller: 'AchievementsController',
-        controllerAs: 'vm',
-        data: {
-            pageTitle: 'Achievements'
-        }
-    });
-
-    //Recent Projects page state
-    $stateProvider.state('app.recent', {
-        url: '/recent-projects',
-        templateUrl: 'app/modules/dashboard/views/recent.html',
-        controller: 'RecentController',
-        controllerAs: 'vm',
-        data: {
-            pageTitle: 'Recent Projects'
-        }
-    });
-
     //Experience page state
     $stateProvider.state('app.experience', {
         url: '/experience',
@@ -80,28 +58,6 @@ dashboard.config(["$stateProvider", function ($stateProvider) {
         }
     });
 
-    // Portfolio page state
-    $stateProvider.state('app.portfolio', {
-        url: '/portfolio',
-        templateUrl: 'app/modules/dashboard/views/portfolio.html',
-        controller: 'PortfolioController',
-        controllerAs: 'vm',
-        data: {
-            pageTitle: 'Portfolio'
-        }
-    });
-
-    //About Me page state
-    $stateProvider.state('app.about', {
-        url: '/about-me',
-        templateUrl: 'app/modules/dashboard/views/about.html',
-        controller: 'AboutController',
-        controllerAs: 'vm',
-        data: {
-            pageTitle: 'About Me'
-        }
-    });
-
     //Contact page state
     $stateProvider.state('app.contact', {
         url: '/contact',
@@ -110,39 +66,6 @@ dashboard.config(["$stateProvider", function ($stateProvider) {
         controllerAs: 'vm',
         data: {
             pageTitle: 'Contact Me'
-        }
-    });
-
-    //Websites page state
-    $stateProvider.state('app.websites', {
-        url: '/websites',
-        templateUrl: 'app/modules/dashboard/views/websites.html',
-        controller: 'WebsitesController',
-        controllerAs: 'vm',
-        data: {
-            pageTitle: 'Websites'
-        }
-    });
-
-    //Gallery page state
-    $stateProvider.state('app.gallery', {
-        url: '/gallery',
-        templateUrl: 'app/modules/dashboard/views/gallery.html',
-        controller: 'GalleryController',
-        controllerAs: 'vm',
-        data: {
-            pageTitle: 'Gallery'
-        }
-    });
-
-    //Search page state
-    $stateProvider.state('app.search', {
-        url: '/search',
-        templateUrl: 'app/modules/dashboard/views/search.html',
-        controller: 'appCtrl',
-        controllerAs: 'vm',
-        data: {
-            pageTitle: 'Search'
         }
     });
 
